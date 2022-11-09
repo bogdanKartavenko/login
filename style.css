@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+}
+
+.header {
+    background-image: url(img/BG.png);
+    background-size: cover;
+    height: 100vh;
+    padding: 178px 0;
+}
+
+.wrapper {
+    max-width: 386px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__caption {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 135%;
+    color: #EAE6EF;
+    padding-bottom: 12px;
+}
+
+.img {
+    width: 18px;
+    position: absolute;
+    fill: #4400A5;
+}
+
+.envelope__color {
+    opacity: 0;
+}
+
+.castle__color {
+    opacity: 0;
+    z-index: 2;
+}
+
+.img:nth-of-type(1) {
+    top:52px;
+    left: 18px;
+}
+
+.img:nth-of-type(2) {
+    top:52px;
+    left: 18px;
+}
+
+.img:nth-of-type(3) {
+    top:154px;
+    left: 18px;
+}
+
+.img:nth-of-type(4) {
+    top:154px;
+    left: 18px;
+}
+
+.input {
+    background-color: transparent;
+    padding: 12px 56px;
+    border-radius: 8px;
+    border: 1px solid #3F3B4C;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #90859C;
+    outline: none;
+}
+
+.input:hover {
+    background-color: #201C2D;
+}
+
+.input:focus  {
+    border: 1px solid #7B14FF;
+}
+
+.input__envelope:focus ~ .envelope__color {
+    opacity: 1;
+}
+
+.input__castle:focus ~ .castle__color  {
+    opacity: 1;
+}
+
+.button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: #7B14FF;
+    border-radius: 8px;
+    padding: 12px 32px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #8647E0;
+    transition: 0.5s ease;
+}
+
+.button:active {
+    background-color: #4400A5;
+    transition: 0.2s ease;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    color: #90859C;
+}
+
+.text_link {
+    color: #90859C;
+}
