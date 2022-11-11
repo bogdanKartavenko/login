@@ -14,7 +14,7 @@
     background-image: url(../img/BGWhite.png);
     background-size: contain;
     min-height: 100vh;
-    padding-top: 141px;
+    padding: 141px 15px 0;
 }
 
 .box {

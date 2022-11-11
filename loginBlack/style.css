@@ -12,7 +12,7 @@
     background-image: url(../img/BG.png);
     background-size: cover;
     height: 100vh;
-    padding: 178px 0;
+    padding: 178px 32px 0;
 }
 
 .wrapper {
@@ -47,50 +47,33 @@
 }
 
 .img {
-    width: 18px;
+    width: 20px;
     position: absolute;
-    fill: #4400A5;
+    height: 20px;
+    fill: #3F3B4C;
 }
 
-.envelope__color {
-    opacity: 0;
+.img:nth-last-of-type(1) {
+    top: 155px;
+    left: 16px;
 }
 
-.castle__color {
-    opacity: 0;
-    z-index: 2;
+.img:nth-last-of-type(2) {
+    top: 49px;
+    left: 16px;
 }
 
-.img:nth-of-type(1) {
-    top:52px;
-    left: 18px;
-}
-
-.img:nth-of-type(2) {
-    top:52px;
-    left: 18px;
-}
-
-.img:nth-of-type(3) {
-    top:154px;
-    left: 18px;
-}
-
-.img:nth-of-type(4) {
-    top:154px;
-    left: 18px;
-}
 
 .input {
     background-color: transparent;
-    padding: 12px 56px;
+    padding: 12px 0px 12px 56px;
     border-radius: 8px;
     border: 1px solid #3F3B4C;
     margin-bottom: 24px;
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
-    color: #90859C;
+    color: white;
     outline: none;
 }
 
@@ -98,16 +81,16 @@
     background-color: #201C2D;
 }
 
-.input:focus  {
+.input:focus {
     border: 1px solid #7B14FF;
 }
 
-.input__envelope:focus ~ .envelope__color {
-    opacity: 1;
+.input__envelope:focus~.img:nth-last-of-type(2) {
+    fill: #7B14FF;
 }
 
-.input__castle:focus ~ .castle__color  {
-    opacity: 1;
+.input__castle:focus~.img:nth-last-of-type(1) {
+    fill: #7B14FF;
 }
 
 .button {
