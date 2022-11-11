@@ -93,13 +93,13 @@
 }
 
 .button:hover {
-    background: #E9035E;
-    transition: 0.5s;
+    background: #FF4991;
+    transition: 0.5s ease;
 }
 
-.button:disabled {
-    background: #FF4991;
-    cursor: default;
+.button:active {
+    background-color: #E9035E;
+    transition: 0.2s ease;
 }
 
 .link {
