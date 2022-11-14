@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    background-image: url(../img/BGWhite.png);
+    background-size: contain;
+    min-height: 100vh;
+    padding: 141px 15px 0;
+}
+
+.box {
+    max-width: 480px;
+    margin: auto;
+    background: rgba(220, 222, 236, 0.18);
+    border: 1px solid #EBECF3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 65px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #2A2E3C;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 145%;
+    text-align: center;
+    color: #2A2E3C;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 145%;
+    color: #67697C;
+    margin-bottom: 8px;
+}
+
+.input {
+    padding: 10px 16px;
+    border: 1px solid #D3D5E2;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.input:hover {
+    border: 1px solid #858DE4;
+}
+
+.input:focus {
+    border: 1px solid #858DE4;
+    box-shadow: 0px 0px 0px 3px rgba(133, 141, 228, 0.15);
+}
+
+.input:nth-of-type(2) {
+    margin-bottom: 24px;
+}
+
+.button {
+    background: #FF0065;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #FF4991;
+    transition: 0.5s ease;
+}
+
+.button:active {
+    background-color: #E9035E;
+    transition: 0.2s ease;
+}
+
+.link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6D7AFF;
+}
