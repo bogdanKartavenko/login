@@ -15,13 +15,20 @@
             <h1 class="login__caption">Log In</h1>
             <form class="form">
                 <label class="email__desc desc" for="email">Email</label>
-                <input class="email__input input__envelope input" required id="email" placeholder="email@example.com"
-                    type="email">
+                <input class="email__input input__envelope input" 
+                required 
+                id="email" 
+                placeholder="email@example.com"
+                type="email">
                 <svg class="img">
                     <use xlink:href="#envelope" /></svg>
                 <label class="password__desc desc" for="password">Password</label>
-                <input class="password__input input__castle input" required id="password" placeholder="minimum 8 characters"
-                    type="password">
+                <input class="password__input input__castle input" 
+                required 
+                id="password" 
+                placeholder="minimum 8 characters"
+                minlength="8"
+                type="password">
                 <svg class="img">
                     <use xlink:href="#castle" /></svg>
                 <button class="button">Log In</button>
